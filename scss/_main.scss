@@ -1,0 +1,39 @@
+.platformList{
+    margin-bottom: 100px;
+    li{
+        img{
+            max-width: 90px;
+        }
+    }
+}
+
+.service{
+    margin-bottom: 100px;
+    li{
+        img{
+            max-width: 260px;
+        }
+    }
+}
+
+.wayCard{
+    margin-bottom: 100px;
+    li{
+        width: 50%;
+        img{
+            max-width: 52px;
+        }
+    }
+}
+
+.evaluation{
+    img{
+        max-width: 80px;
+        top: -60px;
+        left: 32px;
+    }
+}
+
+.ratingStar img {
+    vertical-align: text-bottom;
+  }

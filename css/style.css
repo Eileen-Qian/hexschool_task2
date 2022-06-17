@@ -88,13 +88,21 @@ table {
   --bs-gray-800: #747474;
   --bs-gray-900: #221E1F;
   --bs-primary: #56C4C5;
+  --swiper-theme-color: #ffd153;
   --bs-secondary: #221E1F;
+  --swiper-theme-color: #ffd153;
   --bs-success: #198754;
+  --swiper-theme-color: #ffd153;
   --bs-info: #0dcaf0;
+  --swiper-theme-color: #ffd153;
   --bs-warning: #ffc107;
+  --swiper-theme-color: #ffd153;
   --bs-danger: #FF5D50;
+  --swiper-theme-color: #ffd153;
   --bs-light: #F5F5F5;
+  --swiper-theme-color: #ffd153;
   --bs-dark: #747474;
+  --swiper-theme-color: #ffd153;
   --bs-primary-rgb: 86, 196, 197;
   --bs-secondary-rgb: 34, 30, 31;
   --bs-success-rgb: 25, 135, 84;
@@ -12165,19 +12173,57 @@ nav li img {
   box-shadow: 0px 2px 10px #00000014;
 }
 
+.evaluation ul {
+  padding-top: 104px;
+}
+
 .evaluation img {
   max-width: 80px;
-  top: -60px;
-  left: 32px;
+  max-height: 80px;
+}
+
+.img-frame {
+  top: -50px;
 }
 
 .ratingStar img {
   vertical-align: text-bottom;
 }
 
+:root {
+  --swiper-theme-color: #ffd153;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.card-shadow {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+}
+
 .swiper {
-  width: 600px;
-  height: 300px;
+  max-width: 1120px;
+  padding: 60px 16px 0 0;
+}
+
+.swiper-wrapper {
+  padding: 0 0 0 8px;
+}
+
+.swiper-slide {
+  height: 304px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 8px;
+}
+
+.swiper-pagination {
+  position: static;
+  margin-top: 24px;
 }
 
 .btn-primary:hover {

@@ -16,7 +16,10 @@ function initSwiper() {
       pagination: {
         el: ".swiper-pagination",
         clickable: true
-      }
+      },
+      autoplay: {
+        delay: 3000,
+      },
     });
   }
   

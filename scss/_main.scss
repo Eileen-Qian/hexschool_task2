@@ -30,11 +30,17 @@
         }
 
 .evaluation{
+    ul{
+        padding-top: 104px;
+    }
     img{
         max-width: 80px;
-        top: -60px;
-        left: 32px;
+        max-height: 80px;
     }
+}
+
+.img-frame{
+    top: -50px;
 }
 
 .ratingStar img {

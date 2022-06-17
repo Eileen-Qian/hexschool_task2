@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,221 +10,275 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <title>chatTalker</title>
+
 </head>
+
 <body>
-    <div class="wrapper">
-        <header class="bdWidth">
-            <div class="headerBg">
-                <nav>
-                    <ul class="d-flex justify-content-between mb-4 ">
-                        <li><h1 class="homeLogo"><a href="index.html"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png" alt="logo"></a></h1></li>
-                        <li><a class="btn text-white fs-4 border border-primary rounded-pill bg-primary px-5 py-2" href="charge.html" role="button">方案費用</a></li>
-                    </ul>
-                </nav>
-                <div class="d-flex justify-content-between">
-                    <div class="headerInfo flex-column">
-                        <h2 class="text-primary fs-5 fw-bold mb-4">ChatTalker 最全面的聊天機器人</h2>
-                    <p class="text-secondary fs-1 fw-bold .mb-3">你愛我像誰？
-                        <br>扮演什麼角色我都會</p>
+    <div class="wrap headerBg">
+        <header class="container">
+            <nav>
+                <ul class="d-flex justify-content-between pt-4 pb-4 ">
+                    <li>
+                        <h1 class="homeLogo"><a href="index.html"><img
+                                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/logo.png"
+                                    alt="logo"></a></h1>
+                    </li>
+                    <li><a class="btn btn-primary text-white fs-6 rounded-pill px-5 py-2" href="charge.html"
+                            role="button">方案費用</a></li>
+                </ul>
+            </nav>
+            <div class="row gy-3 gy-3 row-cols-1 row-cols-sm-2 align-items-center">
+                <div class="col">
+                    <h2 class="text-primary fs-5 fw-bold mb-4">ChatTalker 最全面的聊天機器人</h2>
+                    <p class="text-secondary fs-1 fw-bold mb-3">你愛我像誰？<br>扮演什麼角色我都會</p>
                     <p class="text-secondary fs-4">Facebook、Instagram、LINE 聊天機器人解決方案</p>
-                    </div>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home.svg" class="headerImg col-6" alt="home">
                 </div>
+                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home.svg"
+                    class="headerImg col img-fluid" alt="home">
             </div>
         </header>
-        <main class="bdWidth">
+        <main class="container">
             <div class="platformList">
                 <h3 class="fs-2 fw-bold text-secondary text-center mb-5">三大平台，我來搞定</h3>
-                <ul class="d-flex justify-content-between text-center">
-                    <li class="col-4">
+                <ul class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-3">
+                    <li class="col">
                         <div class="card align-items-center border-0">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/messenger.svg" class="card-img-top" alt="messenger">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/messenger.svg"
+                                class="card-img-top" alt="messenger">
                             <div class="card-body">
-                              <h5 class="card-title text-secondary fs-3 text-nowrap">Facebook Messenger</h5>
-                              <p class="text-dark fs-6">結合粉絲專頁，提高粉絲互動率 
-                                <br>有效經營品牌社群</p>   
+                                <h5 class="card-title text-secondary fs-3 text-nowrap">Facebook Messenger</h5>
+                                <p class="text-dark fs-6">結合粉絲專頁，提高粉絲互動率
+                                    <br>有效經營品牌社群
+                                </p>
                             </div>
-                          </div>
+                        </div>
                     </li>
-                    <li class="col-4">
+                    <li class="col">
                         <div class="card align-items-center border-0">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/line.svg" class="card-img-top" alt="line">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/line.svg"
+                                class="card-img-top" alt="line">
                             <div class="card-body">
-                              <h5 class="card-title text-secondary fs-3">LINE 官方帳號</h5>
-                              <p class="text-dark fs-6">融入日常生活，精準傳遞品牌資訊 
-                                <br>打造個人化專屬服務</p>   
+                                <h5 class="card-title text-secondary fs-3">LINE 官方帳號</h5>
+                                <p class="text-dark fs-6">融入日常生活，精準傳遞品牌資訊
+                                    <br>打造個人化專屬服務
+                                </p>
                             </div>
-                          </div>
+                        </div>
                     </li>
-                    <li class="col-4">
+                    <li class="col">
                         <div class="card align-items-center border-0">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/instagram.svg" class="card-img-top" alt="IG">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/instagram.svg"
+                                class="card-img-top" alt="IG">
                             <div class="card-body">
-                              <h5 class="card-title text-secondary fs-3">Instagram 商業帳號</h5>
-                              <p class="text-dark fs-6">貼近粉絲，提升品牌自然聲量
-                                <br>行銷、抽獎一站完成</p>   
+                                <h5 class="card-title text-secondary fs-3">Instagram 商業帳號</h5>
+                                <p class="text-dark fs-6">貼近粉絲，提升品牌自然聲量
+                                    <br>行銷、抽獎一站完成
+                                </p>
                             </div>
-                          </div>
+                        </div>
                     </li>
                 </ul>
             </div>
             <div class="service">
                 <h3 class="fs-2 fw-bold text-secondary text-center mb-5">任何的角色，我都能給</h3>
                 <p class="fs-4 text-secondary text-center mb-5">量身打造您想要的專屬服務，幫助您迅速判斷成效、並加快決策</p>
-                <ul class="d-flex justify-content-between text-center">
-                    <li class="col-3">
-                        <div class="card align-items-center border-0 ">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch01.svg" class="card-img-top" alt="service">
+                <ul class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gx-3 gy-4 px-sm-0">
+                    <li class="col">
+                        <div class="card align-items-center border-0 shadow-sm cardRadius">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch01.svg"
+                                class="card-img-top imgRadius" alt="service">
                             <div class="card-body">
-                              <p class="card-title text-primary fs-6">活動主</p>
-                              <p class="text-dark fs-6">用戶數位足跡掌握在手 
-                                <br>精準取得客戶輪廓，提供分析</p>   
+                                <p class="card-title text-primary fs-6">活動主</p>
+                                <p class="text-dark fs-6">用戶數位足跡掌握在手
+                                    <br>精準取得客戶輪廓，提供分析
+                                </p>
                             </div>
-                          </div>
+                        </div>
                     </li>
-                    <li class="col-3">
-                        <div class="card align-items-center border-0 ">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch02.svg" class="card-img-top" alt="service">
+                    <li class="col">
+                        <div class="card align-items-center border-0 shadow-sm cardRadius">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch02.svg"
+                                class="card-img-top imgRadius" alt="service">
                             <div class="card-body">
-                              <p class="card-title text-primary fs-6">創作者</p>
-                              <p class="text-dark fs-6">自由設計互動腳本  
-                                <br>輕鬆整合各項數據</p>   
+                                <p class="card-title text-primary fs-6">創作者</p>
+                                <p class="text-dark fs-6">自由設計互動腳本
+                                    <br>輕鬆整合各項數據
+                                </p>
                             </div>
-                          </div>
+                        </div>
                     </li>
-                    <li class="col-3">
-                        <div class="card align-items-center border-0 ">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch03.svg" class="card-img-top" alt="service">
+                    <li class="col">
+                        <div class="card align-items-center border-0 shadow-sm cardRadius">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch03.svg"
+                                class="card-img-top imgRadius" alt="service">
                             <div class="card-body">
-                              <p class="card-title text-primary fs-6">企業品牌</p>
-                              <p class="text-dark fs-6">多元資料整合，做出服務差異化  
-                                <br>幫助企業加速決策</p>   
+                                <p class="card-title text-primary fs-6">企業品牌</p>
+                                <p class="text-dark fs-6">多元資料整合，做出服務差異化
+                                    <br>幫助企業加速決策
+                                </p>
                             </div>
-                          </div>
+                        </div>
                     </li>
-                    <li class="col-3">
-                        <div class="card align-items-center border-0 ">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch04.svg" class="card-img-top" alt="service">
+                    <li class="col">
+                        <div class="card align-items-center border-0 shadow-sm cardRadius">
+                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ch04.svg"
+                                class="card-img-top imgRadius" alt="service">
                             <div class="card-body">
-                              <p class="card-title text-primary fs-6">其他</p>
-                              <p class="text-dark fs-6">創造更多可能...</p>   
+                                <p class="card-title text-primary fs-6">其他</p>
+                                <p class="text-dark fs-6 pt-4">創造更多可能...</p>
                             </div>
-                          </div>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="way d-flex align-items-center">
+            <div class="d-flex align-items-center">
                 <div class="wayCard col-6">
                     <ul class="d-flex flex-wrap justify-content-between text-center">
                         <li>
                             <div class="card align-items-center border-0 rounded-circle p-3 mx-2 my-1">
-                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon01.svg" class="card-img-top" alt="service">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon01.svg"
+                                    class="card-img-top" alt="service">
                                 <div class="card-body text-start">
-                                  <p class="card-title text-primary fs-6">活動主</p>
-                                  <p class="text-dark fs-6">用戶數位足跡掌握在手 
-                                    <br>精準取得客戶輪廓，提供分析</p>   
+                                    <p class="card-title text-primary fw-bold fs-6">活動主</p>
+                                    <p class="text-dark fs-6">用戶數位足跡掌握在手
+                                        <br>精準取得客戶輪廓，提供分析
+                                    </p>
                                 </div>
-                              </div>
+                            </div>
                         </li>
                         <li>
                             <div class="card align-items-center border-0 rounded-circle p-3 mx-2 my-1">
-                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon02.svg" class="card-img-top" alt="service">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon02.svg"
+                                    class="card-img-top" alt="service">
                                 <div class="card-body text-start">
-                                  <p class="card-title text-primary fs-6">創作者</p>
-                                  <p class="text-dark fs-6">自由設計互動腳本  
-                                    <br>輕鬆整合各項數據</p>   
+                                    <p class="card-title text-primary fw-bold fs-6">創作者</p>
+                                    <p class="text-dark fs-6">自由設計互動腳本
+                                        <br>輕鬆整合各項數據
+                                    </p>
                                 </div>
-                              </div>
+                            </div>
                         </li>
                         <li>
                             <div class="card align-items-center border-0 rounded-circle p-3 mx-2 my-1">
-                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon03.svg" class="card-img-top" alt="service">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon03.svg"
+                                    class="card-img-top" alt="service">
                                 <div class="card-body text-start">
-                                  <p class="card-title text-primary fs-6">企業品牌</p>
-                                  <p class="text-dark fs-6">多元資料整合，做出服務差異化  
-                                    <br>幫助企業加速決策</p>   
+                                    <p class="card-title text-primary fw-bold fs-6">企業品牌</p>
+                                    <p class="text-dark fs-6">多元資料整合，做出服務差異化
+                                        <br>幫助企業加速決策
+                                    </p>
                                 </div>
-                              </div>
+                            </div>
                         </li>
                         <li>
                             <div class="card align-items-center border-0 rounded-circle p-3 mx-2 my-1">
-                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon04.svg" class="card-img-top" alt="service">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon04.svg"
+                                    class="card-img-top" alt="service">
                                 <div class="card-body text-start">
-                                  <p class="card-title text-primary fs-6">其他</p>
-                                  <p class="text-dark fs-6">創造更多可能...</p>   
+                                    <p class="card-title text-primary fw-bold fs-6">其他</p>
+                                    <p class="text-dark fs-6">創造更多可能...</p>
                                 </div>
-                              </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
                 <div class="wayInfo d-flex flex-column align-items-center">
-                    <h3 class="fs-2 fw-bold text-secondary text-center mb-3">任何的角色，我都能給</h3>
-                    <p class="fs-4 text-secondary text-center mb-4">深入用戶日常，成為用戶貼身好友<br>精準傳遞品牌資訊，打造個人化專屬服務<br>不知不覺深入用戶生活，成為用戶貼心的好朋朋:D</p>
-                    <a class="btn text-white fs-4 border border-primary rounded-pill bg-primary px-5 py-2" href="charge.html" role="button">方案費用</a>
+                    <h3 class="fs-2 fw-bold text-secondary text-center mb-3">快速了解客戶輪廓 建立品牌流量池</h3>
+                    <p class="fs-4 text-secondary text-center mb-4">
+                        深入用戶日常，成為用戶貼身好友<br>精準傳遞品牌資訊，打造個人化專屬服務<br>不知不覺深入用戶生活，成為用戶貼心的好朋朋:D</p>
+                    <a class="btn btn-primary text-white fs-4 rounded-pill px-5 py-2" href="charge.html"
+                        role="button">方案費用</a>
                 </div>
             </div>
             <div class="evaluation">
-                <div class="container">
+                <div>
                     <h2 class="fs-2 fw-bold text-secondary text-center mb-5">好評如潮</h2>
-                <ul class="d-flex justify-content-between text-center">
-                    <li class="col-4 row">
-                        <div class="card align-items-center">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user01.jpg" class="card-img-top rounded-circle img-fluid position-absolute" alt="Lina執行長">
-                            <div class="card-body position-relative">
-                              <p class="card-title text-secondary text-start fs-6 pt-5 pb-4 ">原來聊天機器人可以這麼有人性！團隊有<br>完整的行銷計畫提供數位整合，讓我們公<br>司的產品用更活潑的方式讓使用者認識。</p>
-                              <p class="text-dark fs-6 text-start">清心寡慾設計公司</p>
-                              <div class="d-flex justify-content-between">
-                                <div><p text-dark fs-6>Lina 執行長</p></div>
-                                <div class="ratingStar">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
+                    <ul class="d-flex justify-content-between text-center mt-5">
+                        <li class="col-4 row">
+                            <div class="card align-items-center">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user01.jpg"
+                                    class="card-img-top rounded-circle img-fluid position-absolute" alt="Lina執行長">
+                                <div class="card-body position-relative">
+                                    <p class="card-title text-secondary text-start fs-6 pt-5 pb-4 ">
+                                        原來聊天機器人可以這麼有人性！團隊有<br>完整的行銷計畫提供數位整合，讓我們公<br>司的產品用更活潑的方式讓使用者認識。</p>
+                                    <p class="text-dark fs-6 text-start">清心寡慾設計公司</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <p text-dark fs-6>Lina 執行長</p>
+                                        </div>
+                                        <div class="ratingStar">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="col-4 row">
-                        <div class="card align-items-center">
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user02.jpg" class="card-img-top rounded-circle img-fluid position-absolute" alt="Zoe 活動長">
-                            <div class="card-body position-relative">
-                              <p class="card-title text-secondary text-start fs-6 pt-5 pb-4 ">團隊很積極的協助行銷追蹤，針對機器人<br>進行優化，讓我們一個月內提高10000個<br>追蹤者，客戶體驗回饋很正面！</p>
-                              <p class="text-dark fs-6 text-start">subwhat 行銷公司</p>
-                              <div class="d-flex justify-content-between">
-                                <div><p text-dark fs-6>Zoe 活動長</p></div>
-                                <div class="ratingStar">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
+                        </li>
+                        <li class="col-4 row">
+                            <div class="card align-items-center">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user02.jpg"
+                                    class="card-img-top rounded-circle img-fluid position-absolute" alt="Zoe 活動長">
+                                <div class="card-body position-relative">
+                                    <p class="card-title text-secondary text-start fs-6 pt-5 pb-4 ">
+                                        團隊很積極的協助行銷追蹤，針對機器人<br>進行優化，讓我們一個月內提高10000個<br>追蹤者，客戶體驗回饋很正面！</p>
+                                    <p class="text-dark fs-6 text-start">subwhat 行銷公司</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <p text-dark fs-6>Zoe 活動長</p>
+                                        </div>
+                                        <div class="ratingStar">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="col-4 row">
-                        <div class="card align-items-center"> 
-                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user03.jpg" class="card-img-top rounded-circle img-fluid position-absolute" alt="HowBig">
-                            <div class="card-body position-relative">
-                              <p class="card-title text-secondary text-start fs-6 pt-5 pb-4 ">經營了好久的IG，一直無法提升粉絲數，<br>和團隊合作後，才知道可以用聊天機器人<br>玩這麼豐富的行銷活動！太讚拉～</p>
-                              <p class="text-dark fs-6 text-start">油土伯</p>
-                              <div class="d-flex justify-content-between">
-                                <div><p text-dark fs-6>HowBig</p></div>
-                                <div class="ratingStar">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
-                                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="Star Icon">
+                        </li>
+                        <li class="col-4 row">
+                            <div class="card align-items-center">
+                                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/user03.jpg"
+                                    class="card-img-top rounded-circle img-fluid position-absolute" alt="HowBig">
+                                <div class="card-body position-relative">
+                                    <p class="card-title text-secondary text-start fs-6 pt-5 pb-4 ">
+                                        經營了好久的IG，一直無法提升粉絲數，<br>和團隊合作後，才知道可以用聊天機器人<br>玩這麼豐富的行銷活動！太讚拉～</p>
+                                    <p class="text-dark fs-6 text-start">油土伯</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <p text-dark fs-6>HowBig</p>
+                                        </div>
+                                        <div class="ratingStar">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg"
+                                                alt="Star Icon">
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
                     <ul>
                         <li></li>
                         <li></li>
@@ -233,16 +288,18 @@
             </div>
 
         </main>
-    </div>
-    <footer class="footer">
-        <div class="footerBg">
-            <div class="footerInfo d-flex flex-column align-items-center text-center">
-            <p class="fs-1 fw-bold mb-4 mb-md-8">\ 美好用戶體驗，從對話開始 /</p>
-            <a class="btn text-white fs-4 border border-primary rounded-pill bg-primary px-5 py-2 mb-5 md-5 md-1" href="charge.html" role="button">方案費用</a>
-        </div>
-    </div>
-    <p class="fs-6 text-center bg-light border-radius-pill px-5 py-4">© 2022 chatTalker. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
 
+        <footer class="footer">
+            <div class="footerBg">
+                <div class="footerInfo d-flex flex-column align-items-center text-center">
+                    <p class="fs-1 fw-bold mb-4 mb-md-8">\ 美好用戶體驗，從對話開始 /</p>
+                    <a class="btn btn-primary text-white fs-6 rounded-pill px-5 py-2" href="charge.html"
+                        role="button">方案費用</a>
+                </div>
+            </div>
+            <p class="fs-6 text-center bg-light px-5 py-4">© 2022 chatTalker. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -6,12 +6,13 @@
     height: auto;
 }
 
-.wrapper{
-    max-width: 1366px;
-    margin: 0 auto;
+.wrap{
+    margin: 0 auto
 }
 
-.bdWidth{
-    max-width: 79.439%;
+.container{
+    max-width: 81.99%;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }

@@ -4,5 +4,27 @@
 @import "footer";
 @import "header";
 @import "main";
+@import "swiper";
 
 
+.btn-primary:hover{
+    background: #FF5D50;
+    border: 1px solid #FF5D50;
+}
+
+.imgRadius{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.cardRadius{
+    border-radius: 12px;
+}
+
+@media (max-width:768px){
+    .headerBg{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg);
+        background-position: top 392px center;
+        background-repeat: no-repeat;
+        background-size: contain 62.23% 56.22%;
+    }
+}

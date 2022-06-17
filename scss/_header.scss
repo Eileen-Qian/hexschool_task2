@@ -1,25 +1,16 @@
-.homeLogo{
+nav li img{
     height: 40px;
-}
-
-.headerInfo{
-    h2{
-        line-height: 70px;
-    }
-    p{
-        line-height: 70px;
-    }
-}
-
-.headerImg{
-    max-width: 532px;
 }
 
 .headerBg{
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
-    max-width: 100%;
-    max-height: 768px;
-    background-position: right 100%;
+    background-position: top 0 right 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain 62.23% 56.22%;
+}
+
+.headerImg{
+    width: 45.085%;
+    height: auto;
+    padding: 0px 0px 116px 178.36px;
 }

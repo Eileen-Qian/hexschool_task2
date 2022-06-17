@@ -1,0 +1,46 @@
+:root {
+  --swiper-theme-color: #ffd153;
+}
+p {
+  line-height: 1.5;
+}
+.container {
+  max-width: 1120px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-shadow {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.14);
+}
+.swiper {
+  padding: 60px 16px 0 0;
+}
+.swiper-wrapper {
+  padding: 0 0 0 8px;
+}
+.swiper-slide {
+  height: initial;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 8px;
+}
+
+.swiper-pagination {
+  position: static;
+  margin-top: 24px;
+}
+
+.img-frame {
+  width: 80px;
+  height: 80px;
+  top: -50px;
+}
+.icon-star {
+  width: 16px;
+  height: 16px;
+}
